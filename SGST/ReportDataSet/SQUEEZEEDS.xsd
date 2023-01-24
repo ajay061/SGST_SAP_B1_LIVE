@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SQUEEZEEDS" targetNamespace="http://tempuri.org/SQUEEZEEDS.xsd" xmlns:mstns="http://tempuri.org/SQUEEZEEDS.xsd" xmlns="http://tempuri.org/SQUEEZEEDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SQUEEZEEDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="SQUEEZEEDS" msprop:Generator_UserDSName="SQUEEZEEDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Tool_ID" msprop:Generator_ColumnVarNameInTable="columnTool_ID" msprop:Generator_ColumnPropNameInRow="Tool_ID" msprop:Generator_ColumnPropNameInTable="Tool_IDColumn" msprop:Generator_UserColumnName="Tool_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="description" msprop:Generator_ColumnVarNameInTable="columndescription" msprop:Generator_ColumnPropNameInRow="description" msprop:Generator_ColumnPropNameInTable="descriptionColumn" msprop:Generator_UserColumnName="description" type="xs:string" minOccurs="0" />
+              <xs:element name="Qty" msprop:Generator_ColumnVarNameInTable="columnQty" msprop:Generator_ColumnPropNameInRow="Qty" msprop:Generator_ColumnPropNameInTable="QtyColumn" msprop:Generator_UserColumnName="Qty" type="xs:string" minOccurs="0" />
+              <xs:element name="used_qty" msprop:Generator_ColumnVarNameInTable="columnused_qty" msprop:Generator_ColumnPropNameInRow="used_qty" msprop:Generator_ColumnPropNameInTable="used_qtyColumn" msprop:Generator_UserColumnName="used_qty" type="xs:string" minOccurs="0" />
+              <xs:element name="TYPE" msprop:Generator_ColumnVarNameInTable="columnTYPE" msprop:Generator_ColumnPropNameInRow="TYPE" msprop:Generator_ColumnPropNameInTable="TYPEColumn" msprop:Generator_UserColumnName="TYPE" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalStrokeQty" msprop:Generator_ColumnVarNameInTable="columnTotalStrokeQty" msprop:Generator_ColumnPropNameInRow="TotalStrokeQty" msprop:Generator_ColumnPropNameInTable="TotalStrokeQtyColumn" msprop:Generator_UserColumnName="TotalStrokeQty" type="xs:string" minOccurs="0" />
+              <xs:element name="CREATED_ON" msprop:Generator_ColumnVarNameInTable="columnCREATED_ON" msprop:Generator_ColumnPropNameInRow="CREATED_ON" msprop:Generator_ColumnPropNameInTable="CREATED_ONColumn" msprop:Generator_UserColumnName="CREATED_ON" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

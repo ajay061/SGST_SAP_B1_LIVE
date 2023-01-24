@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="WIPMachineFailure" targetNamespace="http://tempuri.org/WIPMachineFailure.xsd" xmlns:mstns="http://tempuri.org/WIPMachineFailure.xsd" xmlns="http://tempuri.org/WIPMachineFailure.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="WIPMachineFailure" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="WIPMachineFailure" msprop:Generator_UserDSName="WIPMachineFailure">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SITECODE" msprop:Generator_ColumnVarNameInTable="columnSITECODE" msprop:Generator_ColumnPropNameInRow="SITECODE" msprop:Generator_ColumnPropNameInTable="SITECODEColumn" msprop:Generator_UserColumnName="SITECODE" type="xs:string" minOccurs="0" />
+              <xs:element name="LINECODE" msprop:Generator_ColumnVarNameInTable="columnLINECODE" msprop:Generator_ColumnPropNameInRow="LINECODE" msprop:Generator_ColumnPropNameInTable="LINECODEColumn" msprop:Generator_UserColumnName="LINECODE" type="xs:string" minOccurs="0" />
+              <xs:element name="WORK_ORDER_NO" msprop:Generator_ColumnVarNameInTable="columnWORK_ORDER_NO" msprop:Generator_ColumnPropNameInRow="WORK_ORDER_NO" msprop:Generator_ColumnPropNameInTable="WORK_ORDER_NOColumn" msprop:Generator_UserColumnName="WORK_ORDER_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="MACHINEID" msprop:Generator_ColumnVarNameInTable="columnMACHINEID" msprop:Generator_ColumnPropNameInRow="MACHINEID" msprop:Generator_ColumnPropNameInTable="MACHINEIDColumn" msprop:Generator_UserColumnName="MACHINEID" type="xs:string" minOccurs="0" />
+              <xs:element name="FG_ITEM_CODE" msprop:Generator_ColumnVarNameInTable="columnFG_ITEM_CODE" msprop:Generator_ColumnPropNameInRow="FG_ITEM_CODE" msprop:Generator_ColumnPropNameInTable="FG_ITEM_CODEColumn" msprop:Generator_UserColumnName="FG_ITEM_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="FG_ITEM_DESC" msprop:Generator_ColumnVarNameInTable="columnFG_ITEM_DESC" msprop:Generator_ColumnPropNameInRow="FG_ITEM_DESC" msprop:Generator_ColumnPropNameInTable="FG_ITEM_DESCColumn" msprop:Generator_UserColumnName="FG_ITEM_DESC" type="xs:string" minOccurs="0" />
+              <xs:element name="PART_BARCODE" msprop:Generator_ColumnVarNameInTable="columnPART_BARCODE" msprop:Generator_ColumnPropNameInRow="PART_BARCODE" msprop:Generator_ColumnPropNameInTable="PART_BARCODEColumn" msprop:Generator_UserColumnName="PART_BARCODE" type="xs:string" minOccurs="0" />
+              <xs:element name="STAGE" msprop:Generator_ColumnVarNameInTable="columnSTAGE" msprop:Generator_ColumnPropNameInRow="STAGE" msprop:Generator_ColumnPropNameInTable="STAGEColumn" msprop:Generator_UserColumnName="STAGE" type="xs:string" minOccurs="0" />
+              <xs:element name="CUSTOMER_CODE" msprop:Generator_ColumnVarNameInTable="columnCUSTOMER_CODE" msprop:Generator_ColumnPropNameInRow="CUSTOMER_CODE" msprop:Generator_ColumnPropNameInTable="CUSTOMER_CODEColumn" msprop:Generator_UserColumnName="CUSTOMER_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="SCANNED_BY" msprop:Generator_ColumnVarNameInTable="columnSCANNED_BY" msprop:Generator_ColumnPropNameInRow="SCANNED_BY" msprop:Generator_ColumnPropNameInTable="SCANNED_BYColumn" msprop:Generator_UserColumnName="SCANNED_BY" type="xs:string" minOccurs="0" />
+              <xs:element name="PCB_IN_TIME" msprop:Generator_ColumnVarNameInTable="columnPCB_IN_TIME" msprop:Generator_ColumnPropNameInRow="PCB_IN_TIME" msprop:Generator_ColumnPropNameInTable="PCB_IN_TIMEColumn" msprop:Generator_UserColumnName="PCB_IN_TIME" type="xs:string" minOccurs="0" />
+              <xs:element name="REMARKS" msprop:Generator_ColumnVarNameInTable="columnREMARKS" msprop:Generator_ColumnPropNameInRow="REMARKS" msprop:Generator_ColumnPropNameInTable="REMARKSColumn" msprop:Generator_UserColumnName="REMARKS" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

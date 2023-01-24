@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="WIPPrimaryPacking" targetNamespace="http://tempuri.org/WIPPrimaryPacking.xsd" xmlns:mstns="http://tempuri.org/WIPPrimaryPacking.xsd" xmlns="http://tempuri.org/WIPPrimaryPacking.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="WIPPrimaryPacking" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="WIPPrimaryPacking" msprop:Generator_UserDSName="WIPPrimaryPacking">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SITECODE" msprop:Generator_ColumnVarNameInTable="columnSITECODE" msprop:Generator_ColumnPropNameInRow="SITECODE" msprop:Generator_ColumnPropNameInTable="SITECODEColumn" msprop:Generator_UserColumnName="SITECODE" type="xs:string" minOccurs="0" />
+              <xs:element name="LINECODE" msprop:Generator_ColumnVarNameInTable="columnLINECODE" msprop:Generator_ColumnPropNameInRow="LINECODE" msprop:Generator_ColumnPropNameInTable="LINECODEColumn" msprop:Generator_UserColumnName="LINECODE" type="xs:string" minOccurs="0" />
+              <xs:element name="WORK_ORDER_NO" msprop:Generator_ColumnVarNameInTable="columnWORK_ORDER_NO" msprop:Generator_ColumnPropNameInRow="WORK_ORDER_NO" msprop:Generator_ColumnPropNameInTable="WORK_ORDER_NOColumn" msprop:Generator_UserColumnName="WORK_ORDER_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="FG_ITEM_CODE" msprop:Generator_ColumnVarNameInTable="columnFG_ITEM_CODE" msprop:Generator_ColumnPropNameInRow="FG_ITEM_CODE" msprop:Generator_ColumnPropNameInTable="FG_ITEM_CODEColumn" msprop:Generator_UserColumnName="FG_ITEM_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="CUSTOMER_NAME" msprop:Generator_ColumnVarNameInTable="columnCUSTOMER_NAME" msprop:Generator_ColumnPropNameInRow="CUSTOMER_NAME" msprop:Generator_ColumnPropNameInTable="CUSTOMER_NAMEColumn" msprop:Generator_UserColumnName="CUSTOMER_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="CUSTOMER_PART_NUMBER" msprop:Generator_ColumnVarNameInTable="columnCUSTOMER_PART_NUMBER" msprop:Generator_ColumnPropNameInRow="CUSTOMER_PART_NUMBER" msprop:Generator_ColumnPropNameInTable="CUSTOMER_PART_NUMBERColumn" msprop:Generator_UserColumnName="CUSTOMER_PART_NUMBER" type="xs:string" minOccurs="0" />
+              <xs:element name="Box_ID" msprop:Generator_ColumnVarNameInTable="columnBox_ID" msprop:Generator_ColumnPropNameInRow="Box_ID" msprop:Generator_ColumnPropNameInTable="Box_IDColumn" msprop:Generator_UserColumnName="Box_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="PCB_ID" msprop:Generator_ColumnVarNameInTable="columnPCB_ID" msprop:Generator_ColumnPropNameInRow="PCB_ID" msprop:Generator_ColumnPropNameInTable="PCB_IDColumn" msprop:Generator_UserColumnName="PCB_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="PACKSIZE" msprop:Generator_ColumnVarNameInTable="columnPACKSIZE" msprop:Generator_ColumnPropNameInRow="PACKSIZE" msprop:Generator_ColumnPropNameInTable="PACKSIZEColumn" msprop:Generator_UserColumnName="PACKSIZE" type="xs:string" minOccurs="0" />
+              <xs:element name="BATCH_NO" msprop:Generator_ColumnVarNameInTable="columnBATCH_NO" msprop:Generator_ColumnPropNameInRow="BATCH_NO" msprop:Generator_ColumnPropNameInTable="BATCH_NOColumn" msprop:Generator_UserColumnName="BATCH_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="SCANNED_ON" msprop:Generator_ColumnVarNameInTable="columnSCANNED_ON" msprop:Generator_ColumnPropNameInRow="SCANNED_ON" msprop:Generator_ColumnPropNameInTable="SCANNED_ONColumn" msprop:Generator_UserColumnName="SCANNED_ON" type="xs:string" minOccurs="0" />
+              <xs:element name="SCANNED_BY" msprop:Generator_ColumnVarNameInTable="columnSCANNED_BY" msprop:Generator_ColumnPropNameInRow="SCANNED_BY" msprop:Generator_ColumnPropNameInTable="SCANNED_BYColumn" msprop:Generator_UserColumnName="SCANNED_BY" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

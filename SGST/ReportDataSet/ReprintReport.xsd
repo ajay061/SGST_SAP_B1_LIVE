@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ReprintReport" targetNamespace="http://tempuri.org/ReprintReport.xsd" xmlns:mstns="http://tempuri.org/ReprintReport.xsd" xmlns="http://tempuri.org/ReprintReport.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="INE_CONN" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="INE_CONN (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.INE_CONN.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ReprintReport" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ReprintReport" msprop:Generator_UserDSName="ReprintReport">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ReprintHistoryDataRecords" msprop:Generator_TableClassName="ReprintHistoryDataRecordsDataTable" msprop:Generator_TableVarName="tableReprintHistoryDataRecords" msprop:Generator_RowChangedName="ReprintHistoryDataRecordsRowChanged" msprop:Generator_TablePropName="ReprintHistoryDataRecords" msprop:Generator_RowDeletingName="ReprintHistoryDataRecordsRowDeleting" msprop:Generator_RowChangingName="ReprintHistoryDataRecordsRowChanging" msprop:Generator_RowEvHandlerName="ReprintHistoryDataRecordsRowChangeEventHandler" msprop:Generator_RowDeletedName="ReprintHistoryDataRecordsRowDeleted" msprop:Generator_RowClassName="ReprintHistoryDataRecordsRow" msprop:Generator_UserTableName="ReprintHistoryDataRecords" msprop:Generator_RowEvArgName="ReprintHistoryDataRecordsRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ReprintDataID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnReprintDataID" msprop:Generator_ColumnPropNameInRow="ReprintDataID" msprop:Generator_ColumnPropNameInTable="ReprintDataIDColumn" msprop:Generator_UserColumnName="ReprintDataID" type="xs:long" />
+              <xs:element name="DateOFReprint" msprop:Generator_ColumnVarNameInTable="columnDateOFReprint" msprop:Generator_ColumnPropNameInRow="DateOFReprint" msprop:Generator_ColumnPropNameInTable="DateOFReprintColumn" msprop:Generator_UserColumnName="DateOFReprint" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SerialNumber" msprop:Generator_ColumnVarNameInTable="columnSerialNumber" msprop:Generator_ColumnPropNameInRow="SerialNumber" msprop:Generator_ColumnPropNameInTable="SerialNumberColumn" msprop:Generator_UserColumnName="SerialNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reason_OF_Reprint" msprop:Generator_ColumnVarNameInTable="columnReason_OF_Reprint" msprop:Generator_ColumnPropNameInRow="Reason_OF_Reprint" msprop:Generator_ColumnPropNameInTable="Reason_OF_ReprintColumn" msprop:Generator_UserColumnName="Reason_OF_Reprint" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Lebel_Reprint_Stage" msprop:Generator_ColumnVarNameInTable="columnLebel_Reprint_Stage" msprop:Generator_ColumnPropNameInRow="Lebel_Reprint_Stage" msprop:Generator_ColumnPropNameInTable="Lebel_Reprint_StageColumn" msprop:Generator_UserColumnName="Lebel_Reprint_Stage" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrintingID" msprop:Generator_ColumnVarNameInTable="columnPrintingID" msprop:Generator_ColumnPropNameInRow="PrintingID" msprop:Generator_ColumnPropNameInTable="PrintingIDColumn" msprop:Generator_UserColumnName="PrintingID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Mac_ID" msprop:Generator_ColumnVarNameInTable="columnMac_ID" msprop:Generator_ColumnPropNameInRow="Mac_ID" msprop:Generator_ColumnPropNameInTable="Mac_IDColumn" msprop:Generator_UserColumnName="Mac_ID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RSN" msprop:Generator_ColumnVarNameInTable="columnRSN" msprop:Generator_ColumnPropNameInRow="RSN" msprop:Generator_ColumnPropNameInTable="RSNColumn" msprop:Generator_UserColumnName="RSN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CreatedBY" msprop:Generator_ColumnVarNameInTable="columnCreatedBY" msprop:Generator_ColumnPropNameInRow="CreatedBY" msprop:Generator_ColumnPropNameInTable="CreatedBYColumn" msprop:Generator_UserColumnName="CreatedBY" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CreatedON" msprop:Generator_ColumnVarNameInTable="columnCreatedON" msprop:Generator_ColumnPropNameInRow="CreatedON" msprop:Generator_ColumnPropNameInTable="CreatedONColumn" msprop:Generator_UserColumnName="CreatedON" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Remarks" msprop:Generator_ColumnVarNameInTable="columnRemarks" msprop:Generator_ColumnPropNameInRow="Remarks" msprop:Generator_ColumnPropNameInTable="RemarksColumn" msprop:Generator_UserColumnName="Remarks" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ReprintHistoryDataRecords" />
+      <xs:field xpath="mstns:ReprintDataID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

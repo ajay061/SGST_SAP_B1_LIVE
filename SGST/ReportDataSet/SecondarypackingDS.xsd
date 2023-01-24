@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SecondarypackingDS" targetNamespace="http://tempuri.org/SecondarypackingDS.xsd" xmlns:mstns="http://tempuri.org/SecondarypackingDS.xsd" xmlns="http://tempuri.org/SecondarypackingDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SecondarypackingDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="SecondarypackingDS" msprop:Generator_UserDSName="SecondarypackingDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FG_ITEM_CODE" msprop:Generator_ColumnVarNameInTable="columnFG_ITEM_CODE" msprop:Generator_ColumnPropNameInRow="FG_ITEM_CODE" msprop:Generator_ColumnPropNameInTable="FG_ITEM_CODEColumn" msprop:Generator_UserColumnName="FG_ITEM_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="SECONDARY_BOX_ID" msprop:Generator_ColumnVarNameInTable="columnSECONDARY_BOX_ID" msprop:Generator_ColumnPropNameInRow="SECONDARY_BOX_ID" msprop:Generator_ColumnPropNameInTable="SECONDARY_BOX_IDColumn" msprop:Generator_UserColumnName="SECONDARY_BOX_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="CUSTOMER_NAME" msprop:Generator_ColumnVarNameInTable="columnCUSTOMER_NAME" msprop:Generator_ColumnPropNameInRow="CUSTOMER_NAME" msprop:Generator_ColumnPropNameInTable="CUSTOMER_NAMEColumn" msprop:Generator_UserColumnName="CUSTOMER_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="CUSTOMER_LOC" msprop:Generator_ColumnVarNameInTable="columnCUSTOMER_LOC" msprop:Generator_ColumnPropNameInRow="CUSTOMER_LOC" msprop:Generator_ColumnPropNameInTable="CUSTOMER_LOCColumn" msprop:Generator_UserColumnName="CUSTOMER_LOC" type="xs:string" minOccurs="0" />
+              <xs:element name="INVOICE_NO" msprop:Generator_ColumnVarNameInTable="columnINVOICE_NO" msprop:Generator_ColumnPropNameInRow="INVOICE_NO" msprop:Generator_ColumnPropNameInTable="INVOICE_NOColumn" msprop:Generator_UserColumnName="INVOICE_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="INVOICE_DATE" msprop:Generator_ColumnVarNameInTable="columnINVOICE_DATE" msprop:Generator_ColumnPropNameInRow="INVOICE_DATE" msprop:Generator_ColumnPropNameInTable="INVOICE_DATEColumn" msprop:Generator_UserColumnName="INVOICE_DATE" type="xs:string" minOccurs="0" />
+              <xs:element name="PACKING_DATE" msprop:Generator_ColumnVarNameInTable="columnPACKING_DATE" msprop:Generator_ColumnPropNameInRow="PACKING_DATE" msprop:Generator_ColumnPropNameInTable="PACKING_DATEColumn" msprop:Generator_UserColumnName="PACKING_DATE" type="xs:string" minOccurs="0" />
+              <xs:element name="NO_OF_CASE" msprop:Generator_ColumnVarNameInTable="columnNO_OF_CASE" msprop:Generator_ColumnPropNameInRow="NO_OF_CASE" msprop:Generator_ColumnPropNameInTable="NO_OF_CASEColumn" msprop:Generator_UserColumnName="NO_OF_CASE" type="xs:string" minOccurs="0" />
+              <xs:element name="QTY" msprop:Generator_ColumnVarNameInTable="columnQTY" msprop:Generator_ColumnPropNameInRow="QTY" msprop:Generator_ColumnPropNameInTable="QTYColumn" msprop:Generator_UserColumnName="QTY" type="xs:string" minOccurs="0" />
+              <xs:element name="PRIMARY_BOX_ID" msprop:Generator_ColumnVarNameInTable="columnPRIMARY_BOX_ID" msprop:Generator_ColumnPropNameInRow="PRIMARY_BOX_ID" msprop:Generator_ColumnPropNameInTable="PRIMARY_BOX_IDColumn" msprop:Generator_UserColumnName="PRIMARY_BOX_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="SCANNED_ON" msprop:Generator_ColumnVarNameInTable="columnSCANNED_ON" msprop:Generator_ColumnPropNameInRow="SCANNED_ON" msprop:Generator_ColumnPropNameInTable="SCANNED_ONColumn" msprop:Generator_UserColumnName="SCANNED_ON" type="xs:string" minOccurs="0" />
+              <xs:element name="Scanned_by" msprop:Generator_ColumnVarNameInTable="columnScanned_by" msprop:Generator_ColumnPropNameInRow="Scanned_by" msprop:Generator_ColumnPropNameInTable="Scanned_byColumn" msprop:Generator_UserColumnName="Scanned_by" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

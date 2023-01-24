@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A07402D1-0C7B-430A-9649-7E63FC8C8F03}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataLayer</RootNamespace>
+    <AssemblyName>DataLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BcilLib">
+      <HintPath>..\India_Nippon_Electricals_Limited\DLL\BcilLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FG\DL_FG_Customer_Return_Quality.cs" />
+    <Compile Include="FG\DL_LoadingandDispatch.cs" />
+    <Compile Include="Masters\DL_BinMaster.cs" />
+    <Compile Include="Masters\DL_DataTransfer.cs" />
+    <Compile Include="Masters\DL_FG_Customer_Mapping.cs" />
+    <Compile Include="Masters\DL_SamplingMaster.cs" />
+    <Compile Include="Masters\DL_ReasonReprintMaster.cs" />
+    <Compile Include="MES\MASTERS\DL_InvoiceMaster.cs" />
+    <Compile Include="MES\MASTERS\DL_MobQualityDefectMaster.cs" />
+    <Compile Include="MES\MASTERS\DL_IMEIUpload.cs" />
+    <Compile Include="MES\MASTERS\DL_ModelAccessoriesMapping.cs" />
+    <Compile Include="MES\MASTERS\DL_ModelMaster.cs" />
+    <Compile Include="MES\MASTERS\DL_PurchaseOrder.cs" />
+    <Compile Include="MES\PRINTING\DL_AccessoriesScanning.cs" />
+    <Compile Include="MES\PRINTING\DL_GB_WT_Printing.cs" />
+    <Compile Include="MES\PRINTING\DL_LabelPrinting.cs" />
+    <Compile Include="MES\QUALITY\DL_mobLifeTesting.cs" />
+    <Compile Include="MES\QUALITY\DL_mobQualityRework.cs" />
+    <Compile Include="MES\QUALITY\mobQuality.cs" />
+    <Compile Include="Reports\DL_AgingReport.cs" />
+    <Compile Include="Reports\DL_ASNReport.cs" />
+    <Compile Include="Reports\DL_FPYReport.cs" />
+    <Compile Include="Reports\DL_MachineFailureReport.cs" />
+    <Compile Include="Reports\DL_MasterReport.cs" />
+    <Compile Include="Reports\DL_ContainerReport.cs" />
+    <Compile Include="Reports\DL_FG_InventoryReport.cs" />
+    <Compile Include="Reports\DL_FG_PackingListReport.cs" />
+    <Compile Include="Reports\DL_FMS_Report.cs" />
+    <Compile Include="Reports\DL_Job_Work_Report.cs" />
+    <Compile Include="Reports\DL_LoadingAndDispatchreport.cs" />
+    <Compile Include="Reports\DL_MaterialIssuenceReport.cs" />
+    <Compile Include="Reports\DL_MRN_Report.cs" />
+    <Compile Include="Reports\DL_OQCSamplingReport.cs" />
+    <Compile Include="Reports\DL_PALLET_Label_Report.cs" />
+    <Compile Include="Reports\DL_PCB_Serial_Gen_Report.cs" />
+    <Compile Include="Reports\DL_RMReceivingReport.cs" />
+    <Compile Include="Reports\DL_RM_Issue_Report.cs" />
+    <Compile Include="Reports\DL_RM_Tracking_Report.cs" />
+    <Compile Include="Reports\DL_SAPPostingDataReport.cs" />
+    <Compile Include="Reports\DL_StageWiseTrackingReport.cs" />
+    <Compile Include="Reports\DL_StockTakeReport.cs" />
+    <Compile Include="Reports\DL_WIPFQAReport.cs" />
+    <Compile Include="Reports\DL_WIP_InventoryReport.cs" />
+    <Compile Include="Reports\DL_WIP_Primary_Packing_Report.cs" />
+    <Compile Include="Reports\DL_WIP_Secondary_Packing_Report.cs" />
+    <Compile Include="Reports\DL_WIP_Tool_Report.cs" />
+    <Compile Include="Reports\DL_WorkOrderTraceablityReport.cs" />
+    <Compile Include="Reports\DL_Yield_Summary_Report.cs" />
+    <Compile Include="Reports\WIPQualityReport.cs" />
+    <Compile Include="RM\DL_CustomerReturn.cs" />
+    <Compile Include="RM\DL_MaterialToMaterialTransfer.cs" />
+    <Compile Include="RM\DL_ProductionLoss.cs" />
+    <Compile Include="WIP\DL_AccessoriesVerification.cs" />
+    <Compile Include="WIP\DL_BosaSNMapping.cs" />
+    <Compile Include="WIP\DL_FQAScanning.cs" />
+    <Compile Include="WIP\DL_WIPExpiredPCB.cs" />
+    <Compile Include="WIP\DL_WIPFGRollback.cs" />
+    <Compile Include="WIP\DL_WIPSFGAssembly.cs" />
+    <Compile Include="WIP\DL_WIP_Aging_Process.cs" />
+    <Compile Include="WIP\DL_WIP_BackingProcess.cs" />
+    <Compile Include="WIP\DL_WIP_DRYProcess.cs" />
+    <Compile Include="WIP\DL_WIP_FGAssembly.cs" />
+    <Compile Include="WIP\DL_WIP_FG_Sec_Packing.cs" />
+    <Compile Include="WIP\DL_WIP_Issue.cs" />
+    <Compile Include="FG\DL_FGCustomerReturn.cs" />
+    <Compile Include="FG\DL_GENERATE_PACKING_SLIP.cs" />
+    <Compile Include="Masters\DL_Feeder_Mapping.cs" />
+    <Compile Include="Masters\DL_Label_Printing.cs" />
+    <Compile Include="Masters\DL_LineMaster.cs" />
+    <Compile Include="Masters\DL_LocationMaster.cs" />
+    <Compile Include="Masters\DL_ToolMaster.cs" />
+    <Compile Include="Reports\DL_PCBTrackingReport.cs" />
+    <Compile Include="Reports\DL_FG_Box_Label_Report.cs" />
+    <Compile Include="Reports\DL_WIP_Process_Time_Report.cs" />
+    <Compile Include="Reports\DL_WIP_ReworkReport.cs" />
+    <Compile Include="RM\DL_ChildLabelPrinting.cs" />
+    <Compile Include="DL_Common.cs" />
+    <Compile Include="RM\DL_JobWork.cs" />
+    <Compile Include="DL_PhysicalStock.cs" />
+    <Compile Include="Masters\DL_PrinterMaster.cs" />
+    <Compile Include="RM\DL_Putaway.cs" />
+    <Compile Include="RM\DL_Quality.cs" />
+    <Compile Include="RM\DL_RMReturn.cs" />
+    <Compile Include="RM\DL_RM_Printing.cs" />
+    <Compile Include="Masters\DL_SiteDetails.cs" />
+    <Compile Include="RM\DL_SupplierReturn.cs" />
+    <Compile Include="UM\DL_ChangePassword.cs" />
+    <Compile Include="UM\DL_UserLogin.cs" />
+    <Compile Include="UM\DL_UserMaster.cs" />
+    <Compile Include="UM\DL_UserRights.cs" />
+    <Compile Include="FG\DL_Dispatch.cs" />
+    <Compile Include="FG\DL_FGPutaway.cs" />
+    <Compile Include="FG\DL_FGQuality.cs" />
+    <Compile Include="FG\DL_MasterPacking.cs" />
+    <Compile Include="FG\DL_PackingList.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RM\DL_RMIssue.cs" />
+    <Compile Include="WIP\DL_ComponentForming.cs" />
+    <Compile Include="WIP\DL_FGRouting.cs" />
+    <Compile Include="WIP\DL_ProfileMaster.cs" />
+    <Compile Include="WIP\DL_SetProfile.cs" />
+    <Compile Include="WIP\DL_WIPPCBScanning.cs" />
+    <Compile Include="WIP\DL_WIPLaserMachinePrinting.cs" />
+    <Compile Include="Masters\DL_WIPMachineMaster.cs" />
+    <Compile Include="WIP\DL_WIPRework.cs" />
+    <Compile Include="WIP\DL_WIP_FG_Packing.cs" />
+    <Compile Include="Masters\DL_FmsMaster.cs" />
+    <Compile Include="Masters\DL_SolderPastConfig.cs" />
+    <Compile Include="WIP\DL_WIP_LABEL_PRINTING.cs" />
+    <Compile Include="WIP\DL_WIP_PDIQuality.cs" />
+    <Compile Include="WIP\DL_WIP_QUALITY.cs" />
+    <Compile Include="WIP\DL_SolderPastMcDetails.cs" />
+    <Compile Include="WIP\DL_WIP_QUALITY_REWORK.cs" />
+    <Compile Include="WIP\DL_WIPPutway.cs" />
+    <Compile Include="WIP\DL_WIP_Serial_Generation.cs" />
+    <Compile Include="WIP\DL_WIP_VIQuality.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\BcilLib.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+    <Folder Include="obj\Debug\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{38b42f51-7aaa-4e72-810a-61a2f789277c}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PL\PL.csproj">
+      <Project>{90805d3e-ce11-477a-b462-98938fab951f}</Project>
+      <Name>PL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

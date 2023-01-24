@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="WIP_SOLDER_PASTE_DS" targetNamespace="http://tempuri.org/WIP_SOLDER_PASTE_DS.xsd" xmlns:mstns="http://tempuri.org/WIP_SOLDER_PASTE_DS.xsd" xmlns="http://tempuri.org/WIP_SOLDER_PASTE_DS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="WIP_SOLDER_PASTE_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="WIP_SOLDER_PASTE_DS" msprop:Generator_UserDSName="WIP_SOLDER_PASTE_DS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FG_ITEM_CODE" msprop:Generator_ColumnVarNameInTable="columnFG_ITEM_CODE" msprop:Generator_ColumnPropNameInRow="FG_ITEM_CODE" msprop:Generator_ColumnPropNameInTable="FG_ITEM_CODEColumn" msprop:Generator_UserColumnName="FG_ITEM_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="PART_CODE" msprop:Generator_ColumnVarNameInTable="columnPART_CODE" msprop:Generator_ColumnPropNameInRow="PART_CODE" msprop:Generator_ColumnPropNameInTable="PART_CODEColumn" msprop:Generator_UserColumnName="PART_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="SOLDER_PASTE_BARCODE" msprop:Generator_ColumnVarNameInTable="columnSOLDER_PASTE_BARCODE" msprop:Generator_ColumnPropNameInRow="SOLDER_PASTE_BARCODE" msprop:Generator_ColumnPropNameInTable="SOLDER_PASTE_BARCODEColumn" msprop:Generator_UserColumnName="SOLDER_PASTE_BARCODE" type="xs:string" minOccurs="0" />
+              <xs:element name="PROCESS_IN_TIME" msprop:Generator_ColumnVarNameInTable="columnPROCESS_IN_TIME" msprop:Generator_ColumnPropNameInRow="PROCESS_IN_TIME" msprop:Generator_ColumnPropNameInTable="PROCESS_IN_TIMEColumn" msprop:Generator_UserColumnName="PROCESS_IN_TIME" type="xs:string" minOccurs="0" />
+              <xs:element name="PROCESS_OUT_TIME" msprop:Generator_ColumnVarNameInTable="columnPROCESS_OUT_TIME" msprop:Generator_ColumnPropNameInRow="PROCESS_OUT_TIME" msprop:Generator_ColumnPropNameInTable="PROCESS_OUT_TIMEColumn" msprop:Generator_UserColumnName="PROCESS_OUT_TIME" type="xs:string" minOccurs="0" />
+              <xs:element name="TIMETAKEN" msprop:Generator_ColumnVarNameInTable="columnTIMETAKEN" msprop:Generator_ColumnPropNameInRow="TIMETAKEN" msprop:Generator_ColumnPropNameInTable="TIMETAKENColumn" msprop:Generator_UserColumnName="TIMETAKEN" type="xs:string" minOccurs="0" />
+              <xs:element name="ACTUALTIME" msprop:Generator_ColumnVarNameInTable="columnACTUALTIME" msprop:Generator_ColumnPropNameInRow="ACTUALTIME" msprop:Generator_ColumnPropNameInTable="ACTUALTIMEColumn" msprop:Generator_UserColumnName="ACTUALTIME" type="xs:string" minOccurs="0" />
+              <xs:element name="PROCESS_ID" msprop:Generator_ColumnVarNameInTable="columnPROCESS_ID" msprop:Generator_ColumnPropNameInRow="PROCESS_ID" msprop:Generator_ColumnPropNameInTable="PROCESS_IDColumn" msprop:Generator_UserColumnName="PROCESS_ID" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

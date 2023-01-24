@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AccesoriesScanningReportDS" targetNamespace="http://tempuri.org/AccesoriesScanningReportDS.xsd" xmlns:mstns="http://tempuri.org/AccesoriesScanningReportDS.xsd" xmlns="http://tempuri.org/AccesoriesScanningReportDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="AccesoriesScanningReportDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="AccesoriesScanningReportDS" msprop:Generator_UserDSName="AccesoriesScanningReportDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MODEL_CODE" msprop:Generator_ColumnVarNameInTable="columnMODEL_CODE" msprop:Generator_ColumnPropNameInRow="MODEL_CODE" msprop:Generator_ColumnPropNameInTable="MODEL_CODEColumn" msprop:Generator_UserColumnName="MODEL_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="FG_ITEM_CODE" msprop:Generator_ColumnVarNameInTable="columnFG_ITEM_CODE" msprop:Generator_ColumnPropNameInRow="FG_ITEM_CODE" msprop:Generator_ColumnPropNameInTable="FG_ITEM_CODEColumn" msprop:Generator_UserColumnName="FG_ITEM_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="SN_BARCODE" msprop:Generator_ColumnVarNameInTable="columnSN_BARCODE" msprop:Generator_ColumnPropNameInRow="SN_BARCODE" msprop:Generator_ColumnPropNameInTable="SN_BARCODEColumn" msprop:Generator_UserColumnName="SN_BARCODE" type="xs:string" minOccurs="0" />
+              <xs:element name="Accessories_Barcode" msprop:Generator_ColumnVarNameInTable="columnAccessories_Barcode" msprop:Generator_ColumnPropNameInRow="Accessories_Barcode" msprop:Generator_ColumnPropNameInTable="Accessories_BarcodeColumn" msprop:Generator_UserColumnName="Accessories_Barcode" type="xs:string" minOccurs="0" />
+              <xs:element name="Acc_Type" msprop:Generator_ColumnVarNameInTable="columnAcc_Type" msprop:Generator_ColumnPropNameInRow="Acc_Type" msprop:Generator_ColumnPropNameInTable="Acc_TypeColumn" msprop:Generator_UserColumnName="Acc_Type" type="xs:string" minOccurs="0" />
+              <xs:element name="SCAN_BY" msprop:Generator_ColumnVarNameInTable="columnSCAN_BY" msprop:Generator_ColumnPropNameInRow="SCAN_BY" msprop:Generator_ColumnPropNameInTable="SCAN_BYColumn" msprop:Generator_UserColumnName="SCAN_BY" type="xs:string" minOccurs="0" />
+              <xs:element name="SCAN_ON" msprop:Generator_ColumnVarNameInTable="columnSCAN_ON" msprop:Generator_ColumnPropNameInRow="SCAN_ON" msprop:Generator_ColumnPropNameInTable="SCAN_ONColumn" msprop:Generator_UserColumnName="SCAN_ON" type="xs:string" minOccurs="0" />
+              <xs:element name="WORK_ORDER_NO" msprop:Generator_ColumnVarNameInTable="columnWORK_ORDER_NO" msprop:Generator_ColumnPropNameInRow="WORK_ORDER_NO" msprop:Generator_ColumnPropNameInTable="WORK_ORDER_NOColumn" msprop:Generator_UserColumnName="WORK_ORDER_NO" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AGINGREPORT" msprop:Generator_TableClassName="AGINGREPORTDataTable" msprop:Generator_TableVarName="tableAGINGREPORT" msprop:Generator_TablePropName="AGINGREPORT" msprop:Generator_RowDeletingName="AGINGREPORTRowDeleting" msprop:Generator_RowChangingName="AGINGREPORTRowChanging" msprop:Generator_RowEvHandlerName="AGINGREPORTRowChangeEventHandler" msprop:Generator_RowDeletedName="AGINGREPORTRowDeleted" msprop:Generator_UserTableName="AGINGREPORT" msprop:Generator_RowChangedName="AGINGREPORTRowChanged" msprop:Generator_RowEvArgName="AGINGREPORTRowChangeEvent" msprop:Generator_RowClassName="AGINGREPORTRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MODEL_CODE" msprop:Generator_ColumnVarNameInTable="columnMODEL_CODE" msprop:Generator_ColumnPropNameInRow="MODEL_CODE" msprop:Generator_ColumnPropNameInTable="MODEL_CODEColumn" msprop:Generator_UserColumnName="MODEL_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="FG_ITEM_CODE" msprop:Generator_ColumnVarNameInTable="columnFG_ITEM_CODE" msprop:Generator_ColumnPropNameInRow="FG_ITEM_CODE" msprop:Generator_ColumnPropNameInTable="FG_ITEM_CODEColumn" msprop:Generator_UserColumnName="FG_ITEM_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="PART_BARCODE" msprop:Generator_ColumnVarNameInTable="columnPART_BARCODE" msprop:Generator_ColumnPropNameInRow="PART_BARCODE" msprop:Generator_ColumnPropNameInTable="PART_BARCODEColumn" msprop:Generator_UserColumnName="PART_BARCODE" type="xs:string" minOccurs="0" />
+              <xs:element name="AGING_IN_BY" msprop:Generator_ColumnVarNameInTable="columnAGING_IN_BY" msprop:Generator_ColumnPropNameInRow="AGING_IN_BY" msprop:Generator_ColumnPropNameInTable="AGING_IN_BYColumn" msprop:Generator_UserColumnName="AGING_IN_BY" type="xs:string" minOccurs="0" />
+              <xs:element name="AGING_IN_ON" msprop:Generator_ColumnVarNameInTable="columnAGING_IN_ON" msprop:Generator_ColumnPropNameInRow="AGING_IN_ON" msprop:Generator_ColumnPropNameInTable="AGING_IN_ONColumn" msprop:Generator_UserColumnName="AGING_IN_ON" type="xs:string" minOccurs="0" />
+              <xs:element name="AGING_OUT_BY" msprop:Generator_ColumnVarNameInTable="columnAGING_OUT_BY" msprop:Generator_ColumnPropNameInRow="AGING_OUT_BY" msprop:Generator_ColumnPropNameInTable="AGING_OUT_BYColumn" msprop:Generator_UserColumnName="AGING_OUT_BY" type="xs:string" minOccurs="0" />
+              <xs:element name="AGING_OUT_ON" msprop:Generator_ColumnVarNameInTable="columnAGING_OUT_ON" msprop:Generator_ColumnPropNameInRow="AGING_OUT_ON" msprop:Generator_ColumnPropNameInTable="AGING_OUT_ONColumn" msprop:Generator_UserColumnName="AGING_OUT_ON" type="xs:string" minOccurs="0" />
+              <xs:element name="FG_ITEM_DESC" msprop:Generator_ColumnVarNameInTable="columnFG_ITEM_DESC" msprop:Generator_ColumnPropNameInRow="FG_ITEM_DESC" msprop:Generator_ColumnPropNameInTable="FG_ITEM_DESCColumn" msprop:Generator_UserColumnName="FG_ITEM_DESC" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

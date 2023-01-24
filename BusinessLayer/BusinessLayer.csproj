@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7C358F15-ADE4-4163-841B-9FBC7B17DF8B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BusinessLayer</RootNamespace>
+    <AssemblyName>BusinessLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BcilLib, Version=8.0.0.7, Culture=neutral, PublicKeyToken=null" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.Extensions.Design" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BL_MobCommon.cs" />
+    <Compile Include="Masters\BL_BinMaster.cs" />
+    <Compile Include="Masters\BL_DataTransfer.cs" />
+    <Compile Include="Masters\BL_FeederMapping.cs" />
+    <Compile Include="Masters\BL_FG_CustomeMapping.cs" />
+    <Compile Include="Masters\BL_InvoiceMaster.cs" />
+    <Compile Include="Masters\BL_ReprintReasonMaster.cs" />
+    <Compile Include="Masters\BL_SamplingMaster.cs" />
+    <Compile Include="MES\MASTERS\BL_IMEIUpload.cs" />
+    <Compile Include="MES\MASTERS\BL_mobQualityDefectMaster.cs" />
+    <Compile Include="MES\MASTERS\BL_ModelAccessoriesMapping.cs" />
+    <Compile Include="MES\MASTERS\BL_ModelMaster.cs" />
+    <Compile Include="MES\MASTERS\BL_Purchase_Order.cs" />
+    <Compile Include="MES\PRINTING\BL_Acc_Scanning.cs" />
+    <Compile Include="MES\PRINTING\BL_GB_WT_Printing.cs" />
+    <Compile Include="MES\PRINTING\BL_LabelPrinting.cs" />
+    <Compile Include="MES\QUALITY\BL_mobLifeTesting.cs" />
+    <Compile Include="MES\QUALITY\BL_mobQuality.cs" />
+    <Compile Include="MES\QUALITY\BL_mobQualityRework.cs" />
+    <Compile Include="Reports\BL_AgingReport.cs" />
+    <Compile Include="Reports\BL_ASNReport.cs" />
+    <Compile Include="Reports\BL_ContainerReport.cs" />
+    <Compile Include="FG\BL_FGCustomerReturn.cs" />
+    <Compile Include="FG\BL_GenereatePackingList.cs" />
+    <Compile Include="Masters\BL_LineMaster.cs" />
+    <Compile Include="Masters\BL_LocationMaster.cs" />
+    <Compile Include="Masters\BL_PhysicalStock.cs" />
+    <Compile Include="Masters\BL_PrinterMaster.cs" />
+    <Compile Include="Masters\BL_PrintingMaster.cs" />
+    <Compile Include="Masters\BL_SiteDetails.cs" />
+    <Compile Include="Masters\BL_ToolMaster.cs" />
+    <Compile Include="Reports\blRMTrackingReport.cs" />
+    <Compile Include="Reports\BL_FG_Box_Label_Report.cs" />
+    <Compile Include="Reports\BL_FG_InventoryReport.cs" />
+    <Compile Include="Reports\BL_FG_PackingListReport.cs" />
+    <Compile Include="Reports\BL_FPYReport.cs" />
+    <Compile Include="Reports\BL_MachineFailureReport.cs" />
+    <Compile Include="Reports\BL_MasterReports.cs" />
+    <Compile Include="Reports\BL_OQCSamplingReport.cs" />
+    <Compile Include="Reports\BL_PrimaryPackingReports.cs" />
+    <Compile Include="Reports\BL_RMReceivingReport.cs" />
+    <Compile Include="Reports\BL_SAPPostingDataReport.cs" />
+    <Compile Include="Reports\BL_StockReport.cs" />
+    <Compile Include="Reports\BL_WIPFQAReport.cs" />
+    <Compile Include="Reports\BL_WIPQualityReport.cs" />
+    <Compile Include="Reports\BL_WIP_ProcessTimeReport.cs" />
+    <Compile Include="Reports\BL_WIP_Secondary_Label_Report.cs" />
+    <Compile Include="Reports\BL_FMS_Report.cs" />
+    <Compile Include="Reports\BL_Job_Work_Report.cs" />
+    <Compile Include="Reports\BL_LoadingAndDisptachReport.cs" />
+    <Compile Include="Reports\BL_MaterialIssuenceReport.cs" />
+    <Compile Include="Reports\BL_MRN_Report.cs" />
+    <Compile Include="Reports\BL_Pallet_Label_Report.cs" />
+    <Compile Include="Reports\BL_PCBTrackingReport.cs" />
+    <Compile Include="Reports\BL_PCB_Serial_Gen_Report.cs" />
+    <Compile Include="Reports\BL_RM_Issue_Report.cs" />
+    <Compile Include="Reports\BL_WIPReworkReport.cs" />
+    <Compile Include="Reports\BL_WIP_INVENTORY_REPORT.cs" />
+    <Compile Include="Reports\BL_WIP_StageWiseReport.cs" />
+    <Compile Include="Reports\BL_WIP_TOOL_Report.cs" />
+    <Compile Include="Reports\BL_WORK_ORDER_TRACEABILITY_REPORT.cs" />
+    <Compile Include="Reports\BL_YIELD_Summary_Report.cs" />
+    <Compile Include="RM\BL_ProductionLoss.cs" />
+    <Compile Include="RM\BL_RM_CustomerReturn.cs" />
+    <Compile Include="RM\BL_RM_Issue.cs" />
+    <Compile Include="RM\BL_Supplier_Return.cs" />
+    <Compile Include="UM\BL_ChangePassword.cs" />
+    <Compile Include="RM\BL_ChildLabelPrinting.cs" />
+    <Compile Include="BL_Common.cs" />
+    <Compile Include="RM\BL_JobWork.cs" />
+    <Compile Include="RM\BL_Quality.cs" />
+    <Compile Include="UM\BL_UserRights.cs" />
+    <Compile Include="RM\BL_Putaway.cs" />
+    <Compile Include="RM\BL_RM_Printing.cs" />
+    <Compile Include="RM\BL_RM_Return.cs" />
+    <Compile Include="UM\BL_UserLogin.cs" />
+    <Compile Include="UM\BL_UserMaster.cs" />
+    <Compile Include="FG\BL_Dispatch.cs" />
+    <Compile Include="FG\BL_FGPutAway.cs" />
+    <Compile Include="FG\BL_FGQuality.cs" />
+    <Compile Include="FG\BL_Loading_Dispatch.cs" />
+    <Compile Include="FG\BL_MasterPacking.cs" />
+    <Compile Include="FG\BL_PackingList.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WIP\BL_FGRouting.cs" />
+    <Compile Include="Masters\BL_FmsMaster.cs" />
+    <Compile Include="Masters\BL_MachineMaster.cs" />
+    <Compile Include="RM\BL_MaterialToMaterialTransfer.cs" />
+    <Compile Include="WIP\BL_FQA_Scanning.cs" />
+    <Compile Include="WIP\BL_ProfileMaster.cs" />
+    <Compile Include="WIP\BL_QualityRework.cs" />
+    <Compile Include="WIP\BL_Rework.cs" />
+    <Compile Include="WIP\BL_SetProfile.cs" />
+    <Compile Include="Masters\BL_SolderPastConfig.cs" />
+    <Compile Include="WIP\BL_SolderPastMcDetails.cs" />
+    <Compile Include="WIP\BL_WIPBosaSNMapping.cs" />
+    <Compile Include="WIP\BL_WIPComponentReelPrinting.cs" />
+    <Compile Include="WIP\BL_WIPDryProcess.cs" />
+    <Compile Include="WIP\BL_WIPFGRollback.cs" />
+    <Compile Include="WIP\BL_WIPSecondaryBoxPacking.cs" />
+    <Compile Include="WIP\BL_WIPSFGAssembly.cs" />
+    <Compile Include="WIP\BL_WIP_AllowedExpiredPCB.cs" />
+    <Compile Include="WIP\BL_WIP_AgingProcess.cs" />
+    <Compile Include="WIP\BL_WIP_BakingProcess.cs" />
+    <Compile Include="WIP\BL_WIP_BoxPacking.cs" />
+    <Compile Include="WIP\BL_WIP_FGAssembly.cs" />
+    <Compile Include="WIP\BL_WIP_Issue.cs" />
+    <Compile Include="WIP\BL_WIP_LabelReprint.cs" />
+    <Compile Include="WIP\BL_WIP_LaserMachine.cs" />
+    <Compile Include="WIP\BL_WIP_PCBScanning.cs" />
+    <Compile Include="WIP\BL_WipQualityNew.cs" />
+    <Compile Include="WIP\BL_WIP_Putway.cs" />
+    <Compile Include="WIP\BL_WIP_Serial_Generation.cs" />
+    <Compile Include="WIP\BL_WIP_VIQuality.cs" />
+    <Compile Include="WIP\BL_PDIQuality.cs" />
+    <Compile Include="WIP\BL_WIPAccessoriesVerification.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{38b42f51-7aaa-4e72-810a-61a2f789277c}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataLayer\DataLayer.csproj">
+      <Project>{a07402d1-0c7b-430a-9649-7e63fc8c8f03}</Project>
+      <Name>DataLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PL\PL.csproj">
+      <Project>{90805D3E-CE11-477A-B462-98938FAB951F}</Project>
+      <Name>PL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\BcilLib.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

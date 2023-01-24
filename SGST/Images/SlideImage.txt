@@ -1,0 +1,8 @@
+Size = 249kb
+1600*600 pxl
+96*96dpi
+
+
+Rotaor = 687*487
+Login Company Name = 1146*77
+Report Logo= 2000*623 and PNG

@@ -1,0 +1,15 @@
+﻿.modal-content {
+    display: table;
+    overflow-y: auto;
+    overflow-x: auto;
+    width: auto;
+    position: fixed;
+    top: calc(50% - 25px);
+    padding-bottom: 20%;
+    left: calc(-53% - 50px);
+    right: calc(-53% - 50px);
+    display: inline-block;
+}
+ .scrolling {
+            position: absolute;
+        }

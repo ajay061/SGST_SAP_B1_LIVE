@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="FMS_Report_DS" targetNamespace="http://tempuri.org/FMS_Report_DS.xsd" xmlns:mstns="http://tempuri.org/FMS_Report_DS.xsd" xmlns="http://tempuri.org/FMS_Report_DS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="FMS_Report_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="FMS_Report_DS" msprop:Generator_UserDSName="FMS_Report_DS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FMS_IP" msprop:Generator_ColumnVarNameInTable="columnFMS_IP" msprop:Generator_ColumnPropNameInRow="FMS_IP" msprop:Generator_ColumnPropNameInTable="FMS_IPColumn" msprop:Generator_UserColumnName="FMS_IP" type="xs:string" minOccurs="0" />
+              <xs:element name="MACHINEID" msprop:Generator_ColumnVarNameInTable="columnMACHINEID" msprop:Generator_ColumnPropNameInRow="MACHINEID" msprop:Generator_ColumnPropNameInTable="MACHINEIDColumn" msprop:Generator_UserColumnName="MACHINEID" type="xs:string" minOccurs="0" />
+              <xs:element name="FG_ITEM_CODE" msprop:Generator_ColumnVarNameInTable="columnFG_ITEM_CODE" msprop:Generator_ColumnPropNameInRow="FG_ITEM_CODE" msprop:Generator_ColumnPropNameInTable="FG_ITEM_CODEColumn" msprop:Generator_UserColumnName="FG_ITEM_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="MESSAGE_DATA" msprop:Generator_ColumnVarNameInTable="columnMESSAGE_DATA" msprop:Generator_ColumnPropNameInRow="MESSAGE_DATA" msprop:Generator_ColumnPropNameInTable="MESSAGE_DATAColumn" msprop:Generator_UserColumnName="MESSAGE_DATA" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
